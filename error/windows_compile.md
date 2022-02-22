@@ -18,3 +18,5 @@ rustc main.rs
 
 ![image-20220221180900203](../static/images/image-20220221180900203.png)
 
+附件：<a href="static/download/Visual_Studio_2019_Community.zip" target="_blank">Visual Studio 2019 Community_16.4.29519.181</a>
+
