@@ -1,6 +1,6 @@
 # windows下编译问题
 
-## error: linker `link.exe` not found
+## 错误信息：error: linker `link.exe` not found
 
 ### 场景
 
