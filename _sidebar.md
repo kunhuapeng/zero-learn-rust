@@ -19,6 +19,10 @@
     * 方法（链接到结构体方法定义）
     * 闭包
     * 高阶函数
+  * [所有权](/syntax_base/ownership/)
+    * 堆栈
+    * 引用和借用
+    * 解引用
   
 * 常见问题
 * * [Windows环境编译问题](/error/windows_compile)
