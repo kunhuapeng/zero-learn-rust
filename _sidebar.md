@@ -1,9 +1,11 @@
 * [简介](/)
 * [安装Rust](/install_rust/)
 * 入门实例
-* * [Hello, Word!](/simple_example/hello_world)
+  * [Hello, Word!](/simple_example/hello_world)
   * [Hello, Cargo!](/simple_example/hello_cargo)
   * [猜数字游戏](/simple_example/guessing_game)
+  * [注释](/simple_example/comment)
+
 * [Rust语法基础](/syntax_base/)
   * [变量与常量](/syntax_base/variable_constant)
   * [数据类型](/syntax_base/data_types/)
@@ -23,7 +25,10 @@
     * [堆栈](/syntax_base/ownership/heap_stack)
     * [引用和借用](/syntax_base/ownership/references)
     * [解引用](/syntax_base/ownership/dereference)
-  
+    * [切片](/syntax_base/ownership/slice)
 * 常见问题
-* * [Windows环境编译问题](/error/windows_compile)
+  * [Windows环境编译问题](/error/windows_compile)
+
+* 小实战
+  * [应用程序图标设置](/demo/rust_icon)
 
