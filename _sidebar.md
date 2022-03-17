@@ -26,9 +26,13 @@
     * [引用和借用](/syntax_base/ownership/references)
     * [解引用](/syntax_base/ownership/dereference)
     * [切片](/syntax_base/ownership/slice)
+  * [控制流](/syntax_base/control_flow/)
+    * [if表达式](/syntax_base/control_flow/if)
+    * [loop循环](/syntax_base/control_flow/loop)
 * 常见问题
   * [Windows环境编译问题](/error/windows_compile)
 
 * 小实战
   * [应用程序图标设置](/demo/rust_icon)
+  * [斐波那契数列](/demo/fibonacci)
 
