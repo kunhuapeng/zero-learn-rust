@@ -10,14 +10,6 @@
 
 使用rust来生成一个 n 阶斐波那契数列。
 
-## 步骤
-
-### 创建项目
-
-```shell
-cargo new fibonacci
-```
-
 ## 分析
 
 > 数列计算规律 *F*(0)=0，*F*(1)=1, *F*(n)=*F*(n - 1)+*F*(n - 2)（*n* ≥ 2，*n* ∈ N*）
@@ -29,7 +21,17 @@ cargo new fibonacci
 
 显然，如果要输出整个数列的话，方法1更快捷
 
-## 代码
+## 步骤
+
+### 创建项目
+
+```shell
+cargo new fibonacci
+```
+
+### 使用动态数组
+
+**代码**
 
 ```rust
 fn main() {
@@ -53,6 +55,32 @@ fn fibonacci(n: usize) -> Vec<u32> {
     };
     
     result
+}
+```
+
+### 使用递归
+
+**代码**
+
+```rust
+fn main() {
+    let n = 10;
+    let mut result = Vec::new();
+
+    for i in 0..n {
+        result.push(fibonacci(i));
+    }
+
+    println!("{}阶斐波那契数列：{:?}", n, result);
+}
+
+
+fn fibonacci(n: usize) -> u32 {
+    if n == 0 || n == 1 {
+        return 1;
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);//--递归
+    }
 }
 ```
 

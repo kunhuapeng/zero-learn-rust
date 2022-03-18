@@ -35,4 +35,6 @@
 * 小实战
   * [应用程序图标设置](/demo/rust_icon)
   * [斐波那契数列](/demo/fibonacci)
+  * [温度转换](/demo/temperature)
+  * [打印圣诞颂歌](/demo/the_twelve_days_of_christmas)
 
