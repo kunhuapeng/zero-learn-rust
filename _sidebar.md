@@ -18,7 +18,7 @@
   * [运算符](/syntax_base/operator)
   * [函数](/syntax_base/function/)
     * [语句与表达式](/syntax_base/function/statement_expression)
-    * 方法（链接到结构体方法定义）
+    * [方法](/syntax_base/struct/methods)
     * 闭包
     * 高阶函数
   * [所有权](/syntax_base/ownership/)
@@ -28,7 +28,12 @@
     * [切片](/syntax_base/ownership/slice)
   * [控制流](/syntax_base/control_flow/)
     * [if表达式](/syntax_base/control_flow/if)
+    * [match表达式](/syntax_base/control_flow/match)
     * [loop循环](/syntax_base/control_flow/loop)
+    * [while循环](/syntax_base/control_flow/while)
+    * [for循环](/syntax_base/control_flow/for)
+  * [结构体](/syntax_base/struct/)
+    * [结构体方法](/syntax_base/struct/methods)
 * 常见问题
   * [Windows环境编译问题](/error/windows_compile)
 

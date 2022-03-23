@@ -21,7 +21,7 @@
 
 显然，如果要输出整个数列的话，方法1更快捷
 
-## 步骤
+## 解答
 
 ### 创建项目
 
@@ -81,6 +81,39 @@ fn fibonacci(n: usize) -> u32 {
     } else {
         return fibonacci(n - 1) + fibonacci(n - 2);//--递归
     }
+}
+```
+
+### 使用结构体
+
+**代码**
+
+```rust
+#[derive(Debug)]
+struct Fibonacci {
+    series: Vec<u32>,
+}
+
+impl Fibonacci {
+    fn new(len: usize) -> Fibonacci {
+        let mut fbncc = Fibonacci{
+            series: Vec::new()
+        };
+        for i in 0..len {
+            fbncc.series.push(if i == 0 || i == 1 {
+                1
+            } else {
+                fbncc.series[i - 1] + fbncc.series[i - 2]
+            });
+        }
+        return fbncc;
+    }
+}
+
+fn main() {
+    let n = 10;
+    let s = Fibonacci::new(10);
+    println!("{}阶斐波那契数列：{:?}", n, s.series);
 }
 ```
 
