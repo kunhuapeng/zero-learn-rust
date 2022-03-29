@@ -34,6 +34,8 @@
     * [for循环](/syntax_base/control_flow/for)
   * [结构体](/syntax_base/struct/)
     * [结构体方法](/syntax_base/struct/methods)
+  * [枚举](/syntax_base/enums/)
+    * [枚举](/syntax_base/enums/enums)
 * 常见问题
   * [Windows环境编译问题](/error/windows_compile)
 
