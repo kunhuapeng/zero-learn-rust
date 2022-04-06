@@ -36,6 +36,7 @@
     * [结构体方法](/syntax_base/struct/methods)
   * [枚举](/syntax_base/enums/)
     * [枚举](/syntax_base/enums/enums)
+    * [Option 枚举](/syntax_base/enums/option)
 * 常见问题
   * [Windows环境编译问题](/error/windows_compile)
 
