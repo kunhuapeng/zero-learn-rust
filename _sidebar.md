@@ -5,7 +5,6 @@
   * [Hello, Cargo!](/simple_example/hello_cargo)
   * [猜数字游戏](/simple_example/guessing_game)
   * [注释](/simple_example/comment)
-
 * [Rust语法基础](/syntax_base/)
   * [变量与常量](/syntax_base/variable_constant)
   * [数据类型](/syntax_base/data_types/)
@@ -37,9 +36,11 @@
   * [枚举](/syntax_base/enums/)
     * [枚举](/syntax_base/enums/enums)
     * [Option 枚举](/syntax_base/enums/option)
+  * [patterns](/syntax_base/patterns/)
+    * [模式应用](/syntax_base/patterns/pattern_use)
+    * [模式语法](/syntax_base/patterns/pattern_grammar)
 * 常见问题
   * [Windows环境编译问题](/error/windows_compile)
-
 * 小实战
   * [应用程序图标设置](/demo/rust_icon)
   * [斐波那契数列](/demo/fibonacci)
