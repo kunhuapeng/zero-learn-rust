@@ -38,6 +38,7 @@
     * [Option 枚举](/syntax_base/enums/option)
   * [patterns](/syntax_base/patterns/)
     * [模式应用](/syntax_base/patterns/pattern_use)
+    * [Refutability 可反驳性](/syntax_base/patterns/refutability)
     * [模式语法](/syntax_base/patterns/pattern_grammar)
 * 常见问题
   * [Windows环境编译问题](/error/windows_compile)
